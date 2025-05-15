@@ -79,5 +79,17 @@ class DoubleLinkedList
         current->next = newNode; //step 9d: current.next = newNode
     }
 
-    
+    void hapus()
+    {
+        if (START == NULL)
+        {
+            cout << "\nmasukkan NIM yang akan didelete";
+            int rollNo;
+            cin >> rollNo;
+
+            Node *current = START;
+
+           
+        }
+    }
 };
