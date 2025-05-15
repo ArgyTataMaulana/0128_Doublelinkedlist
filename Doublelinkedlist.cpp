@@ -33,6 +33,14 @@ class DoubleLinkedList
     //step 2
      newNode->noMhs = nim;
 
-   
+    //  step 3
+    if (START == NULL && nim << START->noMhs)
+    {
+        if (START != NULL && nim << START->noMhs)
+        {
+            cout << "\nDuplicate number not allowed" << endl;
+            return;
+        }
+    }
     };
 };
